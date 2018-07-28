@@ -13,10 +13,12 @@ npm install karma-remap-istanbul-fix --save-dev
 
 Add the plugin, reporter and reporter configuration in your `karma.conf.js`.
 
+[示例](https://github.com/MuYunyun/diana/blob/master/karma.conf.js)
+
 ```js
 {
   plugins: ['karma-remap-istanbul'],
-  reporters: ['progress', 'karma-remap-istanbul'],
+  reporters: ['progress', 'karma-remap-istanbul-fix'],
   remapIstanbulReporter: {
     remapOptions: {}, //additional remap options
     reportOptions: {}, //additional report options
