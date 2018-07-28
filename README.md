@@ -3,10 +3,10 @@ Call remap-istanbul as a karma reporter, enabling remapped reports on watch
 
 ## Installation
 
-Install `karma-remap-istanbul` as a dev-dependency in your project.
+Install `karma-remap-istanbul-fix` as a dev-dependency in your project.
 
 ```bash
-npm install karma-remap-istanbul --save-dev
+npm install karma-remap-istanbul-fix --save-dev
 ```
 
 ## Configuration
