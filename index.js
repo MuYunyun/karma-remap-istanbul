@@ -1,8 +1,8 @@
 'use strict';
 
 const istanbul = require('istanbul');
-const remap = require('remap-istanbul/lib/remap');
-const writeReport = require('remap-istanbul/lib/writeReport');
+const remap = require('./remap-istanbul/lib/remap');
+const writeReport = require('./remap-istanbul/lib/writeReport');
 
 function KarmaRemapIstanbul(baseReporterDecorator, logger, config) {
   baseReporterDecorator(this);

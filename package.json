@@ -1,6 +1,6 @@
 {
-  "name": "karma-remap-istanbul",
-  "version": "0.6.0",
+  "name": "karma-remap-istanbul-fix",
+  "version": "0.6.1",
   "description": "Call remap-istanbul as a karma reporter, enabling remapped reports on watch",
   "main": "index.js",
   "files": [
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/marcules/karma-remap-istanbul#readme",
   "dependencies": {
     "istanbul": "^0.4.3",
-    "remap-istanbul": "^0.9.0"
   },
   "peerDependencies": {
     "karma": ">=0.9"
