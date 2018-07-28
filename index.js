@@ -92,5 +92,5 @@ function KarmaRemapIstanbul(baseReporterDecorator, logger, config) {
 KarmaRemapIstanbul.$inject = ['baseReporterDecorator', 'logger', 'config'];
 
 module.exports = {
-  'reporter:karma-remap-istanbul': ['type', KarmaRemapIstanbul]
+  'reporter:karma-remap-istanbul-fix': ['type', KarmaRemapIstanbul]
 };

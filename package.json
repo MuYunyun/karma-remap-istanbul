@@ -1,11 +1,8 @@
 {
   "name": "karma-remap-istanbul-fix",
-  "version": "0.6.1",
+  "version": "0.6.3",
   "description": "Call remap-istanbul as a karma reporter, enabling remapped reports on watch",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/MuYunyun/karma-remap-istanbul.git"
@@ -50,7 +47,13 @@
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.0",
     "webpack": "^2.2.1",
-    "xo": "^0.17.1"
+    "xo": "^0.17.1",
+    "amdefine": "^1.0.0",
+    "gulp-util": "3.0.7",
+    "istanbul": "0.4.5",
+    "minimatch": "^3.0.3",
+    "source-map": "^0.6.1",
+    "through2": "2.0.1"
   },
   "nyc": {
     "reporter": [
